@@ -1,4 +1,19 @@
 use std::io;
+
+fn start_up() {
+    let mut name = String::new();
+    
+    println!("Welcome to the Guesser !!!");
+    println!("Please Enter your name: ");
+
+    io::stdin()
+        .read_line(&mut name).expect("Failed to read name");
+
+}
+
+fn guesser() {
+    
+}
 fn main() {
     println!("Guess the number Game !");
     
